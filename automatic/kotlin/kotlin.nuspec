@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kotlin</id>
+    <version>0.0</version>
+    <title>Kotlin Compiler (Portable)</title>
+    <authors>JetBrains</authors>
+    <projectUrl>http://kotlinlang.org/</projectUrl>
+    <tags>kotlin kotlinc jetbrains</tags>
+    <summary>The Kotlin Programming Language</summary>
+    <description>The Latest Kotlin Programming Language</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
