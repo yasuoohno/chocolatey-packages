@@ -3,7 +3,7 @@
   <metadata>
     <id>fossil</id>
     <title>Fossil SCM</title>
-    <version></version>
+    <version>0.0</version>
     <authors>D. Richard Hipp</authors>
     <owners>yasuoo</owners>
     <summary>Simple, high-reliability, distributed software configuration management system</summary>
