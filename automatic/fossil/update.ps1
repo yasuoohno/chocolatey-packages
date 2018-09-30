@@ -20,12 +20,12 @@ function global:au_GetLatest {
 
   $version = $Matches.version
   $url = $download_url + $latest.name
-  $OriginalHash = $latest.hash
+  $original_hash = $latest.hash
 
   @{
     URL32 = $url
     Version = $version
-    OriginalHash = $sum
+    OriginalHash = $original_hash
   }
 }
 
