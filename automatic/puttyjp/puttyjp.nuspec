@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>puttyjp</id>
+    <version>0.70</version>
+    <title>PuTTYjp</title>
+    <authors>PuTTYjp - hdk/PuTTY - Simon Tatham</authors>
+    <projectUrl>https://hp.vector.co.jp/authors/VA024651/PuTTYkj.html</projectUrl>
+    <tags>putty puttyjp</tags>
+    <summary>PuTTY for Japanese</summary>
+    <description>Unofficial patched PuTTY for supporting Japanese</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
