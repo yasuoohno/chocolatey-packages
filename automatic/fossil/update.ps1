@@ -13,7 +13,7 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-  $juv = Invoke-WebRequest -Uri $juvlist_api | ConvertFrom-Json
+  $juv = Invoke-WebRequest -UseBasicParsing -Uri $juvlist_api | ConvertFrom-Json
   $latest = $juv | Where-Object {$_.name -like 'fossil-w32-*.zip'} | Sort-Object -Descending -Property mtime | Select-Object -First 1
   if ( $latest -notmatch "fossil-w32-(?<version>.*?)\.zip" ) {
   }
