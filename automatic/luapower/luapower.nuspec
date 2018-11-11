@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>luapower</id>
+    <version>2018.11.11</version>
+    <title>Lua Power</title>
+    <authors>Various</authors>
+    <projectUrl>https://luapower.com/</projectUrl>
+    <tags>lua luapower</tags>
+    <summary>Lua Power</summary>
+    <description>Luapower is a binary+source module distribution for LuaJIT and a way of deploying and sharing Lua modules.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
