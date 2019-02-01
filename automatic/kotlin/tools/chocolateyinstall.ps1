@@ -6,8 +6,8 @@ $binPath               = "$toolsDir\kotlinc\bin"
 $packageArgs = @{
   packageName    = $packageName
   unzipLocation  = $toolsDir
-  url64bit       = 'https://github.com/JetBrains/kotlin/releases/download/v1.3.0/kotlin-compiler-1.3.0-release-windows-x64.zip'
-  checksum64     = '82d896cfa6c53eb2c2475c9683058e078af1fa07ec092e8f40bcccec194d0caa'
+  url64bit       = 'https://github.com/JetBrains/kotlin/releases/download/v1.3.20/experimental-kotlin-compiler-windows-x64.zip'
+  checksum64     = '88356e5f48acb279793f77173dd792eb46be5accabac0dd659763db6bf7c1b09'
   checksumType64 = 'sha256'
 }
 
