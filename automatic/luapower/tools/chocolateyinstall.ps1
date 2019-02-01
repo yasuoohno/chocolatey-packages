@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop'
 $packageName           = "$env:ChocolateyPackageName"
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$binPath               = "$toolsDir\luapower-all-2018-11-11\"
+$binPath               = "$toolsDir\luapower-all-2019-01-28\"
 
 $packageArgs = @{
   packageName    = $packageName
   unzipLocation  = $toolsDir
-  url            = 'https://github.com/luapower/luapower-all/archive/2018-11-11.zip'
-  checksum       = '8f97f4cf7ae09e7c8ce7edbd595ae2dbf33d3d01fbddce415974b77350f388ff'
+  url            = 'https://github.com/luapower/luapower-all/archive/2019-01-28.zip'
+  checksum       = '05ed17043b825d176c9f6c955625e67aa042ff99f2e9b308b3132ad67335ae30'
   checksumType   = 'sha256'
 }
 
