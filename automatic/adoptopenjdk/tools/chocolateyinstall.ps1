@@ -1,4 +1,6 @@
-﻿function Get-RedirectedUrl
+﻿Add-Type -AssemblyName System.Web
+
+function Get-RedirectedUrl
 {
     Param (
         [Parameter(Mandatory=$true)]
