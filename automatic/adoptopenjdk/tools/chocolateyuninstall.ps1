@@ -1,5 +1,5 @@
 ﻿$targetDir    = 'C:\Program Files\AdoptOpenJDK'
-$release      = '11.0.2+9'
+$release      = '11.0.7+10.1'
 $type         = 'jdk'
 
 $uninstallDir = "$targetDir\$type-$release"

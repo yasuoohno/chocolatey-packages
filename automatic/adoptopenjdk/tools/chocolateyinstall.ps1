@@ -20,7 +20,7 @@ function Get-RedirectedUrl
 $java       = '11'
 $jvm        = 'hotspot'
 $arch       = 'x64'
-$release    = '11.0.2+9'
+$release    = '11.0.7+10.1'
 $type       = 'jdk'
 $releaseURL = $type + '-' + [System.Web.HttpUtility]::UrlEncode($release)
 
@@ -29,7 +29,7 @@ $apiurl= "https://api.adoptopenjdk.net/v2/binary/releases/openjdk$java`?os=windo
 $packageName = $env:ChocolateyPackageName
 $targetDir   = 'C:\Program Files\AdoptOpenJDK'
 $url64       = Get-RedirectedUrl $apiurl
-$checksum64  = 'bde1648333abaf49c7175c9ee8ba9115a55fc160838ff5091f07d10c4bb50b3a'
+$checksum64  = 'ebec62c06c2ad5782e6c364630cadb7591903206e224542563e4c3af5314187c'
  
 Install-ChocolateyZipPackage $packageName $url64 $targetDir
 Install-ChocolateyEnvironmentVariable 'JAVA_HOME' $targetDir\$type-$release 'Machine'
