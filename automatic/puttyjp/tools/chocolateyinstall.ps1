@@ -5,8 +5,8 @@ $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definitio
 $packageArgs = @{
   packageName    = $packageName
   unzipLocation  = $toolsDir
-  url            = 'http://hp.vector.co.jp/authors/VA024651/download/file/putty-0.70-jp20170713.zip'
-  checksum       = '09324063971f12cecd5ce1f83114683101d7a440ab14aad7fa3ac06fb0c7fe70'
+  url            = 'http://hp.vector.co.jp/authors/VA024651/download/file/putty-0.71-jp20190410.zip'
+  checksum       = '2647b73f072e168bd64b1002c7023e9dd51a6bbacb241a9eb707059a601bb18b'
   checksumType   = 'sha256'
 }
 

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>puttyjp</id>
-    <version>0.70</version>
+    <version>0.71</version>
     <title>PuTTYjp</title>
     <authors>PuTTYjp - hdk/PuTTY - Simon Tatham</authors>
     <projectUrl>https://hp.vector.co.jp/authors/VA024651/PuTTYkj.html</projectUrl>
