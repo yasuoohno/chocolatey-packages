@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>winlibs-mingw-llvm</id>
+    <version>10.1.0.3</version>
+    <title>WinLibs standalone build of GCC,LLVM and MinGW-w64 for Windows</title>
+    <authors>Brecht Sanders</authors>
+    <projectUrl>http://winlibs.com/</projectUrl>
+    <tags>compiler gcc mingw mingw-w64 llvm</tags>
+    <summary>It's a free C and C++ compiler for Microsoft Windows.</summary>
+    <description>This is a standalone build, which means this download offers a complete compiler environment for Windows.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
