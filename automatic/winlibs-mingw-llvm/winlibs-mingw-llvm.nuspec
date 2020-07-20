@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>winlibs-mingw-llvm</id>
-    <version>10.1.0.3</version>
+    <version>0.0</version>
     <title>WinLibs standalone build of GCC,LLVM and MinGW-w64 for Windows</title>
     <authors>Brecht Sanders</authors>
     <projectUrl>http://winlibs.com/</projectUrl>
