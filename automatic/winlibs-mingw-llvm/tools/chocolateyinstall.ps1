@@ -1,11 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop'
 $packageName           = "$env:ChocolateyPackageName"
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$binPath               = "$toolsDir\mingw64\bin"
+$installDir            = "$(Get-ToolsLocation)"
+$binPath               = "$installDir\mingw64\bin"
 
 $packageArgs = @{
   packageName    = $packageName
-  unzipLocation  = $toolsDir
+  unzipLocation  = $installDir
   url64bit       = ''
   checksum64     = ''
   checksumType64 = 'sha256'

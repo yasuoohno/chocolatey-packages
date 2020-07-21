@@ -8,6 +8,9 @@ function global:au_SearchReplace {
       "(?i)(^\s*url64bit\s*=\s*)('.*')" = "`$1'$($Latest.URL)'"
       "(?i)(^\s*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
     }
+    ".\tools\chocolateyUninstall.ps1" = @{
+      "(?i)(^\s*zipFileName\s*=\s*)('.*')" = "`$1'$($Latest.FileName)'"
+    }
   }
 }
 
@@ -22,6 +25,7 @@ function global:au_GetLatest {
 
   @{
     URL = $url
+    FileName = $fn
     Version = $version + '.' + $release
   }
 }

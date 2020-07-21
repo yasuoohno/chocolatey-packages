@@ -8,7 +8,8 @@
     <projectUrl>http://winlibs.com/</projectUrl>
     <tags>compiler gcc mingw mingw-w64 llvm</tags>
     <summary>It's a free C and C++ compiler for Microsoft Windows.</summary>
-    <description>This is a standalone build, which means this download offers a complete compiler environment for Windows.</description>
+    <description>This is a standalone build, which means this download offers a complete compiler environment for Windows.
+    This chocolatey package installs those files in %ChocolateyTools%\mingw64 directory.</description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
